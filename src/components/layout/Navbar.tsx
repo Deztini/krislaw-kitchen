@@ -111,7 +111,7 @@ export function Navbar() {
                     handleNavClick(link.href);
                   }
                 }}
-                className="font-sans text-sm font-medium text-white/80 hover:text-white transition-colors"
+                className="font-poppins text-sm font-medium text-white/80 hover:text-white transition-colors"
               >
                 {link.label}
               </a>

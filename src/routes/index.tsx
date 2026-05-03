@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "../components/layout/Navbar";
 import { HeroSection } from "../components/sections/HeroSection";
+import { MenuSection } from "../components/sections/MenuSection";
 
 export const Route = createFileRoute("/")({
   component: HomePage,
@@ -9,8 +10,11 @@ export const Route = createFileRoute("/")({
 function HomePage() {
   return (
     <>
+    <div className="bg-[#FFFFFF]">
     <Navbar />
     <HeroSection />
+    <MenuSection />
+    </div>
     </>
   );
 }
