@@ -8,7 +8,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const sizeStyles: Record<ButtonSize, string> = {
-  sm: "px-4, py-2 text-sm",
+  sm: "px-6, py-2 text-sm w-15",
   lg: "py-3 px-6 text-base",
 };
 
