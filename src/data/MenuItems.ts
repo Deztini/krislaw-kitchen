@@ -3,6 +3,7 @@ import smallJollof from "../assets/jollof-small.png";
 import largeJollof from "../assets/jollof-big.png";
 import basmati from "../assets/basmati-rice.png";
 import familyJollof from "../assets/jollof-family.png";
+import jollof from "../assets/jollof-img.png"
 
 export const menuItems: MenuItem[] = [
   {
@@ -10,21 +11,21 @@ export const menuItems: MenuItem[] = [
     name: "Jollof Rice and Chicken",
     price: 2000,
     plateSize: "Big Plate",
-    image: largeJollof,
+    image: jollof,
   },
   {
     id: "2",
     name: "Jollof Rice and Chicken",
     price: 1500,
     plateSize: "Small Plate",
-    image: smallJollof,
+    image: jollof,
   },
   {
     id: "3",
     name: "Jollof Rice and Chicken",
     price: 2000,
     plateSize: "Big Plate",
-    image: largeJollof,
+    image: jollof,
   },
   {
     id: "4",
