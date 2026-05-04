@@ -1,6 +1,4 @@
 import type { MenuItem } from "../types";
-import smallJollof from "../assets/jollof-small.png";
-import largeJollof from "../assets/jollof-big.png";
 import basmati from "../assets/basmati-rice.png";
 import familyJollof from "../assets/jollof-family.png";
 import jollof from "../assets/jollof-img.png"
