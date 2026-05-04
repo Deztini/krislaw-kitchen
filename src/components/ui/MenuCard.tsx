@@ -8,13 +8,15 @@ interface MenuCardProps {
 
 export function MenuCard({ item }: MenuCardProps) {
   return (
-    <div className="relative h-90 rounded-xl overflow-hidden">
+    <div className="relative h-90 rounded-xl overflow-hidden group cursor-pointer">
 
       <img
         src={menuBg}
         alt="Menu background"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover  transition-transform duration-500 group-hover:scale-105"
       />
+
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 z-1" />
 
       <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10">
         <img
