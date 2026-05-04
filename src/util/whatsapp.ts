@@ -8,9 +8,9 @@ export function createWhatsAppOrderURL(
 
 I'd like to place an order:
 
-*Item:* ${itemName}
-*Size:* ${plateSize}
-*Price:* ₦${price.toLocaleString()}
+Item: ${itemName},
+Size: ${plateSize},
+Price: ₦${price.toLocaleString()}
 
 Please confirm my order. Thank you!`;
 
