@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx @tanstack/router-cli generate & tsc -b && vite build",
+    "build": "npx @tanstack/router-cli generate && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@tanstack/router-cli": "^1.166.40",
     "@tanstack/router-plugin": "^1.167.32",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
