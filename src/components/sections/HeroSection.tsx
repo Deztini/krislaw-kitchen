@@ -8,25 +8,27 @@ export function HeroSection() {
   };
 
   return (
-    <section className="relative w-full h-screen min-h-150 overflow-hidden">
+    <section className="relative w-full h-[70vh] md:h-screen min-h-150 overflow-hidden">
       <div className="absolute inset-0">
         <img
           src={hero}
           alt="Delicious Jollof Rice"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-top"
         />
       </div>
 
       <div className="relative z-10 h-full flex items-center mt-8">
-        <div className="max-w-6xl mx-auto  w-full">
+        <div className="max-w-6xl mx-auto px-6  w-full">
           <div className="max-w-xl">
-            <p className="font-poppins text-[#FFFBF6] text-2xl font-medium tracking-widest mb-4 opacity-0 animate-[fadeSlideUp_0.6s_ease_0.2s_forwards]">
+            <p className="font-poppins text-[#FFFBF6] text-2xl font-medium tracking-widest mb-4 opacity-0 animate-[fadeSlideUp_0.6s_ease_0.2s_forwards]"
+            style={{ fontSize: "clamp(1.5rem, 2.5vw, 1.8rem)" }}
+            >
               Your Go-To Spot for Tasty Foods
             </p>
 
             <h1
               className="font-display italic text-[#F5F5F5] leading-tight mb-4 opacity-0 animate-[fadeSlideUp_0.6s_ease_0.4s_forwards]"
-              style={{ fontSize: "clamp(2rem, 6vw, 5rem)" }}
+              style={{ fontSize: "clamp(3rem, 6vw, 5rem)" }}
             >
               KrisLaw Kitchen
             </h1>
@@ -45,13 +47,6 @@ export function HeroSection() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 opacity-60">
-        <span className="font-sans text-white text-xs tracking-widest uppercase">
-          Scroll
-        </span>
-        <div className="w-px h-8 bg-white/50 animate-pulse" />
       </div>
     </section>
   );

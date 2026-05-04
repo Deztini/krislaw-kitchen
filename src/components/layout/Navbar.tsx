@@ -40,7 +40,7 @@ export function Navbar() {
       `}
     >
       <nav className="max-w-6xl mx-auto px-1 py-4 flex items-center gap-70">
-        <Link to="/" className="flex items-center gap-7">
+        <Link to="/" className="hidden md:flex items-center gap-7">
           <div>
             <img src={logo} alt="Logo" />
           </div>
